@@ -298,3 +298,45 @@ button:hover{
 .greeting p{
     font-size:10px !important;
 }
+/* ==========================
+   CHOICE BUTTONS
+========================== */
+.choice{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    margin-top:25px;
+
+}
+
+.choice button{
+
+    display:inline-block;
+
+    padding:12px 28px;
+
+    border:none;
+
+    border-radius:30px;
+
+    background:#8B3A62;
+
+    color:white;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.choice button:hover{
+
+    transform:scale(1.05);
+
+   }
