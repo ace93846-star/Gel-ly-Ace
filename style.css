@@ -340,61 +340,7 @@ button:hover{
     transform:scale(1.05);
 
    }
-#responseTitle{
 
-    color:#8B3A62;
-
-    margin-bottom:20px;
-
-}
-
-#responseMessage{
-
-    font-size:22px;
-
-    line-height:1.7;
-
-    margin-bottom:30px;
-
-    color:#555;
-
-}
-/* ==========================
-   PAGE 0
-========================== */
-
-.choice{
-    display:flex;
-    justify-content:center;
-    gap:20px;
-    margin-top:25px;
-}
-
-.choice button{
-
-    padding:12px 30px;
-
-    border:none;
-
-    border-radius:30px;
-
-    background:linear-gradient(135deg,#ff8fb1,#ff5f8f);
-
-    color:white;
-
-    font-size:18px;
-
-    cursor:pointer;
-
-    transition:.3s;
-
-}
-
-.choice button:hover{
-
-    transform:scale(1.08);
-
-}
 
 
 /* ==========================
