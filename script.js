@@ -3,13 +3,15 @@ function yesAnswer() {
     document.getElementById("responsePage").classList.add("active");
 
     document.getElementById("responseTitle").innerText = "Yeheyyy!! 🥳!";
-    document.getElementById("responseMessage").innerText = "It's really Angel! 🌸<br><br>
 
-    I knew it all along. 🤭<br><br>
+    document.getElementById("responseMessage").innerHTML = `
+It's really Angel! 🌸<br><br>
 
-    Now, let's see what's next...";
+I knew it all along. 🤭<br><br>
 
-    // show button only if YES
+Now, let's see what's next...
+`;
+
     document.getElementById("continueBtn").style.display = "block";
 }
 
