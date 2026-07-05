@@ -72,8 +72,8 @@ function openEnvelope() {
 
 }
 function goToEnvelope() {
-    responsePage.classList.remove("active");
-    page1.classList.add("active");
+    document.getElementById("responsePage").classList.remove("active");
+    document.getElementById("page1").classList.add("active");
 }
 // =========================
 // NEXT PAGE
