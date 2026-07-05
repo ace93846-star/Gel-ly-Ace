@@ -1,3 +1,27 @@
+function yesAnswer(){
+
+    page0.classList.remove("active");
+
+    page1.classList.add("active");
+
+}
+
+function noAnswer(){
+
+    alert(
+`Nice try.
+
+I know you're Angel...
+the angel who accidentally landed on Earth. ✨
+
+Now stop lying. 🤭`
+    );
+
+    page0.classList.remove("active");
+
+    page1.classList.add("active");
+
+}
 // =========================
 // ELEMENTS
 // =========================
@@ -6,6 +30,7 @@ const envelope = document.getElementById("envelope");
 const photo = document.getElementById("photo");
 const openBtn = document.getElementById("openBtn");
 
+const page0 = document.getElementById("page0");
 const page1 = document.getElementById("page1");
 const page2 = document.getElementById("page2");
 
