@@ -46,6 +46,33 @@
 
 </div>
 
+<!-- =========================
+     PAGE 0
+========================= -->
+
+<div id="page0" class="page active">
+
+    <div class="card">
+
+        <h1>Before We Begin...</h1>
+
+        <p>I just need to make sure...</p>
+
+        <h2>Are you really Angel?</h2>
+
+        <div class="choice">
+
+            <button onclick="yesAnswer()">Yes</button>
+
+            <button onclick="noAnswer()">No</button>
+
+        </div> 
+</div>
+     
+<!-- =========================
+     RESPONSE PAGE
+========================= -->
+
 <div id="responsePage" class="page">
 
     <div class="card">
@@ -54,8 +81,8 @@
 
         <p id="responseMessage"></p>
 
-        <button onclick="goToEnvelope()">
-            OK
+        <button id="continueBtn" onclick="goToEnvelope()">
+            Continue →
         </button>
 
     </div>
