@@ -1,18 +1,17 @@
-function yesAnswer(){
+function yesAnswer() {
+    document.getElementById("page0").classList.remove("active");
+    document.getElementById("responsePage").classList.add("active");
 
-    page0.classList.remove("active");
-
-    responsePage.classList.add("active");
-
-    responseTitle.innerHTML = "Yeheyyy!! 🥳";
-
-    responseMessage.innerHTML = `
-    It's really Angel! 🌸<br><br>
+    document.getElementById("responseTitle").innerText = "Yeheyyy!! 🥳!";
+    document.getElementById("responseMessage").innerText = "It's really Angel! 🌸<br><br>
 
     I knew it all along. 🤭<br><br>
 
-    Now, let's see what's next...
-    `;
+    Now, let's see what's next...";
+
+    // show button only if YES
+    document.getElementById("continueBtn").style.display = "block";
+
 }
 
 function noAnswer(){
