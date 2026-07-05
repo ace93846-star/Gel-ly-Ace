@@ -11,8 +11,8 @@ function yesAnswer() {
 
     // show button only if YES
     document.getElementById("continueBtn").style.display = "block";
-
 }
+
 
 function noAnswer(){
 
