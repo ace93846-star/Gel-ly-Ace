@@ -16,21 +16,16 @@ Now, let's see what's next...
 }
 
 
-function noAnswer(){
-
-    alert(
-`Nice try.
+function noAnswer() {
+    alert(`Nice try.
 
 I know you're Angel...
 the angel who accidentally landed on Earth. ✨
 
-Now stop lying. 🤭`
-    );
+Now stop lying. 🤭`);
 
-    page0.classList.remove("active");
-
-    page1.classList.add("active");
-
+    document.getElementById("page0").classList.remove("active");
+    document.getElementById("page1").classList.add("active");
 }
 // =========================
 // ELEMENTS
