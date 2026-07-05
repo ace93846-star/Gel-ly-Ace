@@ -404,3 +404,10 @@ button:hover{
     transform:scale(1.08);
 
 }
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
