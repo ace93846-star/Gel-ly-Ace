@@ -73,7 +73,10 @@ function openEnvelope() {
     }, 1200);
 
 }
-
+function goToEnvelope() {
+    responsePage.classList.remove("active");
+    page1.classList.add("active");
+}
 // =========================
 // NEXT PAGE
 // =========================
