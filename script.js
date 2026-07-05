@@ -2,8 +2,17 @@ function yesAnswer(){
 
     page0.classList.remove("active");
 
-    page1.classList.add("active");
+    responsePage.classList.add("active");
 
+    responseTitle.innerHTML = "Yeheyyy!! 🥳";
+
+    responseMessage.innerHTML = `
+    It's really Angel! 🌸<br><br>
+
+    I knew it all along. 🤭<br><br>
+
+    Now, let's see what's next...
+    `;
 }
 
 function noAnswer(){
