@@ -43,6 +43,10 @@ const page0 = document.getElementById("page0");
 const page1 = document.getElementById("page1");
 const page2 = document.getElementById("page2");
 
+const responsePage = document.getElementById("responsePage");
+const responseTitle = document.getElementById("responseTitle");
+const responseMessage = document.getElementById("responseMessage");
+
 let opened = false;
 
 // =========================
