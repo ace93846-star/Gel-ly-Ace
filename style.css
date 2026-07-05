@@ -359,3 +359,102 @@ button:hover{
     color:#555;
 
 }
+/* ==========================
+   PAGE 0
+========================== */
+
+.choice{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    margin-top:25px;
+}
+
+.choice button{
+
+    padding:12px 30px;
+
+    border:none;
+
+    border-radius:30px;
+
+    background:linear-gradient(135deg,#ff8fb1,#ff5f8f);
+
+    color:white;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.choice button:hover{
+
+    transform:scale(1.08);
+
+}
+
+
+/* ==========================
+   RESPONSE PAGE
+========================== */
+
+#responsePage .card{
+
+    max-width:420px;
+
+    margin:auto;
+
+    text-align:center;
+
+}
+
+#responseTitle{
+
+    color:#b03060;
+
+    font-size:36px;
+
+    margin-bottom:20px;
+
+}
+
+#responseMessage{
+
+    font-size:22px;
+
+    line-height:1.7;
+
+    color:#555;
+
+    margin-bottom:30px;
+
+}
+
+#continueBtn{
+
+    padding:14px 35px;
+
+    border:none;
+
+    border-radius:30px;
+
+    background:linear-gradient(135deg,#ff8fb1,#ff5f8f);
+
+    color:white;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+#continueBtn:hover{
+
+    transform:scale(1.08);
+
+}
